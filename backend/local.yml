@@ -6,4 +6,4 @@ runtime:
   path: "/nakama/data"
 
 logger:
-  level: "info"
+  level: "DEBUG"
