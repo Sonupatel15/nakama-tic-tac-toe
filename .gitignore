@@ -34,3 +34,41 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# -------------------
+# Go
+# -------------------
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Go workspace file (optional: include if you don't want to track it)
+go.work
+go.work.sum
+
+# Dependency directories (if using vendoring)
+vendor/
+
+# Go build cache (usually not needed in repo)
+*.cache
+
+# IDE/editor specific (GoLand, VSCode Go, etc.)
+.idea/
+.vscode/
+
+# OS generated files (if not already covered)
+*.swp
+*.swo
+
+# Logs
+*.log
